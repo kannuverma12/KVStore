@@ -49,7 +49,6 @@ public class KVStore<K,V> {
 		}
 	}
 	
-	
 	public V get(K key) {
 		logger.info("Model : Getting Value");
 		int hashVal = hash(key);
